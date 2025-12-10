@@ -122,10 +122,10 @@ nav a:hover, nav a:focus{
 
 /* Main content with margins for both sidebars */
 main{
-  max-width:var(--max-width);
+  max-width:calc(100% - 260px - var(--sidebar-width) - 2rem);
   margin:0 auto 0 calc(var(--sidebar-width) + 1rem);
-  margin-right:260px;
   padding:0 1rem;
+  padding-right:260px;
   display:block;
   flex:1;
 }
